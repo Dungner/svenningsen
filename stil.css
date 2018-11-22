@@ -1,0 +1,282 @@
+html, body, header, div, nav, main, section, footer{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: black;
+	font-size: 12px;
+}
+#wrapper{
+    max-width: 960px;
+	margin: 0 auto;
+	background-color: #ededed;
+   
+}
+.container{
+	width: 100%;
+	margin:0;
+	top: 0px;
+}
+#albsignature{
+	size: auto;
+	padding-left:10%;
+	max-width: 100%;
+	
+}
+#thispage{
+	color: #ff6a00;
+}
+nav{
+	float: right;
+	background:#ededed;
+	position: sticky;
+	top:0;
+	border-bottom: 3px solid black;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline;
+}
+nav li{
+	display:inline-block;
+	margin-left: 12%;
+	padding-top:20px;
+	padding-bottom: 0px;
+	
+	position:relative;
+}
+
+nav a{
+	color:#000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+nav a:hover{
+	color:#ff6a00;
+}
+.localnav{
+	font-size: 13px;
+	text-align: center;
+}
+#text-first-page{
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	color: #ededed;
+    text-shadow: 2px 2px 4px #000000;
+	
+}
+.parallax{
+	
+	background-image:url(pics/albgreencroped.jpg);
+	min-height:890px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgpage1{
+	background-image: url(pics/albgreen.jpg);
+	min-height: 890px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+footer{
+	
+	text-align: center;
+	background: #ededed;
+	padding: 1px;
+	border-top: 3px solid black;
+}
+.kalrubrik{
+	text-transform: uppercase;
+	text-align: center;
+}
+.kalkonsert{
+	text-transform: uppercase;
+	text-align: center;
+	
+
+}
+th, td {
+    border-bottom: 1px solid #000;
+	width:10%;
+	padding: 15px;
+}
+.kaltd:hover {
+	background-color: #ff6a00;
+	}
+
+#rubrikcv{
+	text-align: center;
+	font-family: verdana;
+	margin-top: 100px;
+}
+#cv{
+	font-family: verdana;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 2;
+	padding: 10%;
+}
+#downloadpdf{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ff6a00;
+	padding: 10px;
+	box-shadow: 2px 2px 4px #000000;
+	margin-bottom: 5px;
+	margin-left: 36%;
+}
+#downloadpdf a{
+	text-align: center;
+}
+#pressbilder{
+	display: block;
+	font-family: verdana;
+	text-transform: uppercase;
+	text-align: center;
+	
+	
+}
+#pressbilder img{
+	
+	padding: 12px 12px 12px 12px;
+	
+}
+#pressbilder img:hover{
+	box-shadow: 2px 2px 2px 2px #ff6a00;
+}
+
+#bokning{
+	background-color: #ededed;
+	text-align: center;
+}
+legend{
+	display: none;
+}
+#kontakt{
+	padding: 20px;
+	margin: auto;
+	width: 50%;
+	border: none;
+}
+#kontakt fieldset{
+	color: #286099;
+}
+#kontakt legend{
+	font-weight: bold;
+}
+#kontakt label{
+	width: 100px;
+	text-align: left;
+	margin-top: 8px;
+}
+#kontakt input{
+	display: block;
+	margin-top: 8px;
+	margin: auto;
+}
+#text{
+	margin-top: 15px;
+	width: 258px;
+	
+}
+.musiclink{
+	display: block;
+	width:100%;
+	height:200px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width:770px){
+	nav{
+		width:80%;
+		
+	}
+	nav ul li{
+		display: inline;
+		margin-left: 8%;
+	}
+	nav a{
+		text-align: center;
+	}
+}
+@media screen and (max-width:525px){
+	nav{
+		width:80%;
+		
+	}
+	nav ul li{
+		display: inline;
+		margin-left: 4%;
+	}
+	nav a{
+		text-align: center;
+	}
+}
+@media screen and (max-width:410px){
+	nav{
+		width:80%;
+		
+	}
+	nav ul li{
+		display: inline;
+		margin-left: 0;
+	}
+	nav a{
+		text-align: center;
+	}
+}
+@media screen and (max-width:340px){
+	nav{
+		width:auto;
+		margin:0;
+		padding:0;
+		
+	}
+	
+	nav ul li{
+		display: block;
+		margin:0;
+		padding:0;
+		
+	}
+	nav a{
+		
+		display: block;
+	}
+	table{
+		width: 100%;
+	}
+	th, td{
+		display: block;
+		text-align: center;
+	}
+	tr{
+		border-bottom: 1px solid #ff6a00;
+		width: 100%;
+	}
+	
+	.kaltd:nth-child(even){
+	 color: #ff6a00;
+	}
+	.kaltd:hover {
+	background-color: #ededed;
+	}
+}
+#footerkontakt{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
